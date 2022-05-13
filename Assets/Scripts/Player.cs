@@ -35,16 +35,16 @@ public class Player : MonoBehaviour
         float movement = Input.GetAxis("Horizontal");
         rig.velocity = new Vector2(movement * Speed, rig.velocity.y);
 
-        if(movement > 0f){
-        anim.SetBool("run", true);
-        transform.eulerAngles = new Vector3(0f, 0f, 0f);
+        if(movement > 0f){            
+            anim.SetBool("run", true);
+            transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
         if(movement < 0f){
-        anim.SetBool("run", true);
-        transform.eulerAngles = new Vector3(0f, 180f, 0f);
+            anim.SetBool("run", true);
+            transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
         if(movement == 0f){
-        anim.SetBool("run", false);
+            anim.SetBool("run", false);
         }
     }
 
@@ -87,6 +87,9 @@ public class Player : MonoBehaviour
         if(collision.gameObject.layer == 8)
         {
             isJumping = true;
+            anim.SetBool("run", false);
+            anim.SetBool("jump", true);
+
         }
     }
 }

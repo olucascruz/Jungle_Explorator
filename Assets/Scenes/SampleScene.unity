@@ -290,7 +290,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.8, y: -0.5, z: -10}
+  m_LocalPosition: {x: 12.02, y: 1.7, z: -10}
   m_LocalScale: {x: 1.4766935, y: 1.4766935, z: 1.4766935}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -312,6 +312,8 @@ MonoBehaviour:
   target: {fileID: 346081189}
   offset: {x: 0, y: 0, z: -10}
   smoothFactor: 3
+  minValues: {x: -1.3, y: -0.5, z: -10}
+  maxValues: {x: 31.1, y: 1.7, z: -10}
 --- !u!1 &648830925 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1613831336521979230, guid: 4b0f05e3b83270543aee1171aeb15f78, type: 3}
