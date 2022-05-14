@@ -82,14 +82,37 @@ public class Player : MonoBehaviour
         
     }
 
-    void OnCollisionExit2D(Collision2D collision)
+    // void OnCollisionExit2D(Collision2D collision)
+    // {
+    //     if(collision.gameObject.layer == 8)
+    //     {
+    //         isJumping = true;
+    //         anim.SetBool("jump", true);
+
+    //     }
+    // }
+    
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.layer == 8)
+        {
+            isJumping = false;
+            anim.SetBool("jump", false);
+
+        }
+        
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.gameObject.layer == 8)
         {
             isJumping = true;
-            anim.SetBool("run", false);
             anim.SetBool("jump", true);
 
         }
     }
+
+
+   
 }
