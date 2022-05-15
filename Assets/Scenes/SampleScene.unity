@@ -503,7 +503,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.486003, y: 0.025243044, z: -14}
+  m_LocalPosition: {x: 16.386938, y: -0.06452227, z: -14}
   m_LocalScale: {x: 1.4766935, y: 1.4766935, z: 1.4766935}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -685,11 +685,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1613831336521979218, guid: 4b0f05e3b83270543aee1171aeb15f78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.43
+      value: 15.76
       objectReference: {fileID: 0}
     - target: {fileID: 1613831336521979218, guid: 4b0f05e3b83270543aee1171aeb15f78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.55
+      value: -0.39
       objectReference: {fileID: 0}
     - target: {fileID: 1613831336521979218, guid: 4b0f05e3b83270543aee1171aeb15f78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -822,6 +822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382907847}
   - component: {fileID: 1382907848}
+  - component: {fileID: 1382907849}
   m_Layer: 0
   m_Name: Cinemachine
   m_TagString: Untagged
@@ -874,7 +875,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7771639, y: 1}
+    m_SensorSize: {x: 1.778626, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -883,6 +884,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1467908984}
+--- !u!114 &1382907849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382907846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BoundingShape2D: {fileID: 2045423952}
+  m_Damping: 0.5
+  m_MaxWindowSize: -1
 --- !u!1 &1384525888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2326,19 +2342,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0.02, y: -0.15, z: 0}
+  m_TrackedObjectOffset: {x: 0.02, y: 1.08, z: 0}
   m_LookaheadTime: 0.2
-  m_LookaheadSmoothing: 0
+  m_LookaheadSmoothing: 1
   m_LookaheadIgnoreY: 1
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 0
-  m_ScreenX: 0.25
-  m_ScreenY: 0.8000001
+  m_ScreenX: 0.4624357
+  m_ScreenY: 0.4169407
   m_CameraDistance: 14
   m_DeadZoneWidth: 0.25
-  m_DeadZoneHeight: 0
+  m_DeadZoneHeight: 0.47
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
@@ -9839,3 +9855,65 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &2045423950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045423951}
+  - component: {fileID: 2045423952}
+  m_Layer: 0
+  m_Name: MapConfiner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2045423951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045423950}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.1, y: 0.9691633, z: -14}
+  m_LocalScale: {x: 47.33, y: 20.821377, z: 1.4766935}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2045423952
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045423950}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.5140234, y: 0.37559062}
+      - {x: -0.5140502, y: -0.54766965}
+      - {x: 0.4961148, y: -0.5290018}
+      - {x: 0.4907105, y: 0.5330292}
