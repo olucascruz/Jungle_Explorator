@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyFlying : MonoBehaviour
+public class EnemyFlying : Enemy
 {
-    public float speed;
-
+   
     public float distanceDetection;
 
     private Transform positionPlayer;

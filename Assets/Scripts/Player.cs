@@ -77,17 +77,22 @@ public class Player : MonoBehaviour
         {
             isJumping = false;
             anim.SetBool("jump", false);
-
         }
+
+        if(collision.gameObject.tag == "Damage")
+        {
+            anim.SetTrigger("hit");
+        }
+        
         
     }
 
     // void OnCollisionExit2D(Collision2D collision)
     // {
-    //     if(collision.gameObject.layer == 8)
+    //     if(collision.gameObject.tag == "Damage")
     //     {
-    //         isJumping = true;
-    //         anim.SetBool("jump", true);
+            
+            
 
     //     }
     // }
