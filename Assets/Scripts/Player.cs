@@ -91,6 +91,10 @@ public class Player : MonoBehaviour
             life -= 10;
 
         }
+        if (life <= 0)
+        {
+            GameControler.instance.ShowGameOver();
+        }
         
         
     }
