@@ -73,7 +73,7 @@ public class Demon : Enemy
                     timeBall -= Time.deltaTime;
                 }
             }
-            else
+            else if(Vector2.Distance(transform.position, positionPlayer.position) < distanceAvance)
             {
                 transform.Translate(Vector2.right * speed * Time.deltaTime);  
             }
