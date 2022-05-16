@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 4fea3bc2a932e884aa4a3365245075e2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 23
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66dd7b8eb904524d8a03b5ddf1d4d85
+      internalID: -1453810791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 23
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be10fc243dbdbc4b8e69ac8e38738bb
+      internalID: -1003693152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 23
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482b31d16e8ad08499303701246e01d6
+      internalID: 466560469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 23
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818dad47b7989d24a83426096f136bf3
+      internalID: -1729232641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 23
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9bf54450442cb4793770ba197cc843
+      internalID: 865865038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 23
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b78d76e4f98714d997e6b56fc03da4
+      internalID: -1143277141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 23
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec8ab156d05252418693580094ea7ca
+      internalID: -1160192366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 23
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf379c4117e084196739a06dbe067c
+      internalID: 1386179483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 17
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72404f39960ce0f48b5c1c6c493307e5
+      internalID: -928790850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 23
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a79205e78ef3c498a3b90133563815
+      internalID: -925454953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 23
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2aa3749726db64f9b8c2487c5aceeb
+      internalID: 1976983440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 23
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd0f3b7e973c1d449c9658d12c6dc5a
+      internalID: -1755711427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 17
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab18929f0137774d8af0828c71da958
+      internalID: -281802360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 17
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa910125e2ad3fb4482a88b0d5be2535
+      internalID: 250337748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icy_demon-game-novo-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 17
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6174f05bfd6b89541a88c2f12e08c249
+      internalID: 2000123678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      icy_demon-game-novo-removebg-preview_7: 1386179483
+      icy_demon-game-novo-removebg-preview_6: -1160192366
+      icy_demon-game-novo-removebg-preview_12: -281802360
+      icy_demon-game-novo-removebg-preview_10: 1976983440
+      icy_demon-game-novo-removebg-preview_21: -569352276
+      icy_demon-game-novo-removebg-preview_16: -1835934308
+      icy_demon-game-novo-removebg-preview_1: -1003693152
+      icy_demon-game-novo-removebg-preview_17: -2068279736
+      icy_demon-game-novo-removebg-preview_19: -1364617869
+      icy_demon-game-novo-removebg-preview_15: 1830636523
+      icy_demon-game-novo-removebg-preview_0: -1453810791
+      icy_demon-game-novo-removebg-preview_24: 1168179966
+      icy_demon-game-novo-removebg-preview_3: -1729232641
+      icy_demon-game-novo-removebg-preview_26: 1283884972
+      icy_demon-game-novo-removebg-preview_11: -1755711427
+      icy_demon-game-novo-removebg-preview_22: -756717187
+      icy_demon-game-novo-removebg-preview_25: -1990079294
+      icy_demon-game-novo-removebg-preview_2: 466560469
+      icy_demon-game-novo-removebg-preview_18: -808716323
+      icy_demon-game-novo-removebg-preview_20: -1492722806
+      icy_demon-game-novo-removebg-preview_13: 250337748
+      icy_demon-game-novo-removebg-preview_14: 2000123678
+      icy_demon-game-novo-removebg-preview_8: -928790850
+      icy_demon-game-novo-removebg-preview_23: 1943630829
+      icy_demon-game-novo-removebg-preview_27: 1020132544
+      icy_demon-game-novo-removebg-preview_4: 865865038
+      icy_demon-game-novo-removebg-preview_28: -150358835
+      icy_demon-game-novo-removebg-preview_5: -1143277141
+      icy_demon-game-novo-removebg-preview_9: -925454953
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

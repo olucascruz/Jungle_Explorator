@@ -20,7 +20,6 @@ public class EnemyOnGround : Enemy
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        Physics.IgnoreLayerCollision(0, 8);
 
     }
     // Update is called once per frame
