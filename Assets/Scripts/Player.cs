@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -12,8 +13,12 @@ public class Player : MonoBehaviour
 
     public bool isJumping;
     public bool doubleJump;
+
+    public int life;
+    public Text text;
     void Start()
     {
+        text = GameObject.Find("life").GetComponent<Text>();
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -23,8 +28,9 @@ public class Player : MonoBehaviour
     {
         Move();
         Jump();
-
+        text.text = life.ToString();
         anim.SetFloat("yVelocity", rig.velocity.y);
+
     }
 
     void Move()
@@ -82,20 +88,13 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Damage")
         {
             anim.SetTrigger("hit");
+            life -= 10;
+
         }
         
         
     }
 
-    // void OnCollisionExit2D(Collision2D collision)
-    // {
-    //     if(collision.gameObject.tag == "Damage")
-    //     {
-            
-            
-
-    //     }
-    // }
     
     void OnTriggerEnter2D(Collider2D collision)
     {

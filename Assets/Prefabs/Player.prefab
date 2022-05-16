@@ -147,6 +147,8 @@ MonoBehaviour:
   JumpForce: 7
   isJumping: 0
   doubleJump: 0
+  life: 100
+  text: {fileID: 0}
 --- !u!70 &648830932
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
