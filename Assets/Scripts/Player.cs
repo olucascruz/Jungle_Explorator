@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
         {
             SoundManager.PlaySound("Damage");
             anim.SetTrigger("hit");
-            life -= 10;
+            life -= 5;
         }
         if (life <= 0)
         {
