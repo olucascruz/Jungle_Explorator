@@ -86,9 +86,9 @@ public class Player : MonoBehaviour
 
         if(collision.gameObject.tag == "Damage")
         {
+            SoundManager.PlaySound("Damage");
             anim.SetTrigger("hit");
             life -= 10;
-
         }
         if (life <= 0)
         {
@@ -128,7 +128,7 @@ public class Player : MonoBehaviour
         }
          if(collision.gameObject.layer == 7)
            {
-               anim.SetTrigger(death);
+               anim.SetTrigger("death");
            }
     }
 
