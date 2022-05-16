@@ -99,4 +99,12 @@ public class Demon : Enemy
         rb.velocity = transform.right * fireSpeed;
 
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.layer == 7)
+        {
+            Destroy(gameObject);
+        }
+    }
 }

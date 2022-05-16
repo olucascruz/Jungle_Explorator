@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
 
     public int life;
     public Text text;
+
+
+    public Vector3 posicao;
     void Start()
     {
         text = GameObject.Find("life").GetComponent<Text>();
@@ -30,6 +33,8 @@ public class Player : MonoBehaviour
         Jump();
         text.text = life.ToString();
         anim.SetFloat("yVelocity", rig.velocity.y);
+        Debug.Log(posicao);
+
 
     }
 
@@ -79,11 +84,13 @@ public class Player : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D collision)
     {
+
         if(collision.gameObject.layer == 7)
         {
             life = 0;
         }
 
+        posicao = collision.transform.position;
         if(collision.gameObject.tag == "Damage")
         {
             anim.SetTrigger("hit");
@@ -93,11 +100,16 @@ public class Player : MonoBehaviour
         if (life <= 0)
         {
             GameControler.instance.ShowGameOver();
+            Destroy(gameObject);
         }
         
         
     }
 
+    void Dead()
+    {
+
+    }
     
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -125,6 +137,10 @@ public class Player : MonoBehaviour
             anim.SetBool("jump", true);
 
         }
+         if(collision.gameObject.layer == 7)
+           {
+               anim.SetTrigger(death);
+           }
     }
 
 
