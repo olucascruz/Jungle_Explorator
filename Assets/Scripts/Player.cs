@@ -79,11 +79,10 @@ public class Player : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // if(collision.gameObject.layer == 8)
-        // {
-        //     isJumping = false;
-        //     anim.SetBool("jump", false);
-        // }
+        if(collision.gameObject.layer == 7)
+        {
+            life = 0;
+        }
 
         if(collision.gameObject.tag == "Damage")
         {
@@ -112,6 +111,8 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Damage")
         {
             anim.SetTrigger("hit");
+            life -= 10;
+
         }
         
     }
