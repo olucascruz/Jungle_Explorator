@@ -5,10 +5,14 @@ using UnityEngine;
 public class fireball : MonoBehaviour
 {   
     public float timeForExist;
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         Invoke("selfDestruction", timeForExist);
+        anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -25,11 +29,12 @@ public class fireball : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 2, ForceMode2D.Impulse);
-            Invoke("selfDestruction", 0.5f);
+            selfDestruction();
         }
     }
 
     void selfDestruction(){
-        Destroy(gameObject);
+        anim.SetTrigger("explosion");
+        Destroy(gameObject, 0.2f);
     }
 }
