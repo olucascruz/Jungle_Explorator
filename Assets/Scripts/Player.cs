@@ -93,6 +93,7 @@ public class Player : MonoBehaviour
         if (life <= 0)
         {
             GameControler.instance.ShowGameOver();
+            Destroy(gameObject);
         }
         
         
@@ -125,6 +126,10 @@ public class Player : MonoBehaviour
             anim.SetBool("jump", true);
 
         }
+         if(collision.gameObject.layer == 7)
+           {
+               anim.SetTrigger(death);
+           }
     }
 
 
