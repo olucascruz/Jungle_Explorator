@@ -63,7 +63,8 @@ public class Boss : MonoBehaviour
         
 
         if(Vector2.Distance(transform.position, positionPlayer.position) < distanceAttack && !isAttack)
-            {   
+            {
+                SoundManager.PlaySound("sword");
                 areaAtack.SetActive(true);
                 anim.SetTrigger("attack");
                 isAttack = true;
