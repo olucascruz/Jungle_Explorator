@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GameControler : MonoBehaviour
 {
-    public void RestartGame(string lvlName )
+    public void RestartGame(string lvlName)
     {
         SceneManager.LoadScene(lvlName);
     }
+
+
 }
